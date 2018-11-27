@@ -98,3 +98,20 @@ Pods
 *.xcworkspace
 Podfile.lock
 # END IOS
+
+# ------------Android ignore
+platforms/android/WeexFrameworkWrapper/*.iml
+platforms/android/WeexFrameworkWrapper/app/*.iml
+#platforms/android/WeexFrameworkWrapper/app/src/main/assets/eros.native.json
+platforms/android/WeexFrameworkWrapper/app/src/main/assets/bundle.zip
+platforms/android/WeexFrameworkWrapper/app/src/main/assets/bundle.config
+
+platforms/android/WeexFrameworkWrapper/.gradle
+platforms/android/WeexFrameworkWrapper/local.properties
+platforms/android/WeexFrameworkWrapper/.DS_Store
+platforms/android/WeexFrameworkWrapper/build
+platforms/android/WeexFrameworkWrapper/captures
+platforms/android/WeexFrameworkWrapper/.externalNativeBuild
+platforms/android/WeexFrameworkWrapper/.idea
+platforms/android/WeexFrameworkWrapper/install.sh
+# ------------Android ignore
